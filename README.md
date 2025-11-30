@@ -82,9 +82,27 @@
 ## 🔥 Featured Projects
 
 ### [Medicine Packet analyzer](https://github.com/your-username/project-1)
+ This project presents an AI-powered application called Medicine Packet Analyzer that helps
+ extract and understand medicine details from packet images. It uses OCR tools like EasyOCR
+ and Tesseract for text extraction, and the Gemini API for analyzing and structuring the
+ information such as medicine name, expiry date, usage, and warnings.
+ The system is built with Python and supports both CLI and GUI modes, improving acces
+sibility and awareness about medicines in academic and healthcare fields.
 
+ Tech Stack Used:
+ • Python — Core programming language
+ • EasyOCR and Tesseract — For Optical Character Recognition (OCR)
+ • OpenCV —For image preprocessing
+ • Gemini API (Google AI) — For structured information extraction
+ • Tkinter — For GUI development.
+ 
+### [Tomato leaf disease detection](https://github.com/your-username/project-2)
+This project aims to automatically detect tomato leaf diseases from images using deep learning–based computer vision. A labeled dataset of healthy and diseased tomato leaf images is used to train a Convolutional Neural Network (CNN) model that classifies common diseases such as early blight, late blight, bacterial spot, and leaf mold, along with healthy leaves. The trained model is integrated into a simple web application where users can upload a leaf image and receive the predicted disease class in real time, supporting faster and more objective diagnosis for precision agriculture.​
 
----
+Suggested tech stack :
+Programming language: Python 3 (for data preprocessing, model training, and backend).​
+ML / DL libraries: TensorFlow or Keras (CNN / transfer learning such as InceptionV3, ResNet) and scikit-learn for evaluation utilities.​
+Dataset: Tomato subset of PlantVillage or Kaggle tomato leaf disease dataset with multiple disease classes plus healthy.
 
 ## 🤝 Looking to Collaborate On
 
